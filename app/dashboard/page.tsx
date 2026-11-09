@@ -15,7 +15,7 @@ export default async function DashboardPage() {
       <h1>Dashboard</h1>
       <p>Welcome, {user.name}!</p>
 
-      <form action="/api/logout" method="POST">
+      <form action="api/logout" method="POST">
         <button type="submit">Log out</button>
       </form>
     </main>

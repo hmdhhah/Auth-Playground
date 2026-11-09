@@ -3,8 +3,8 @@ import { signup } from "../actions/auth";
 // app/login/page.tsx
 export default function SignUpPage() {
   return (
-    <main className="flex flex-col  h-[100vh]">
-      <form  action={signup} className="flex flex-col justify-center align-center m-auto ">
+    <main className="flex flex-col  h-screen">
+      <form  action="/api/register" className="flex flex-col justify-center align-center m-auto ">
         <h1 className="font-extrabold text-center m-4 text-3xl font-serif ">
           Create User Account
         </h1>
